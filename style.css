@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(179,220,237,1);
+    background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(187,223,238,0.81) 86%, rgba(188,224,238,0.81) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(86%, rgba(187,223,238,0.81)), color-stop(100%, rgba(188,224,238,0.81)));
+    background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(187,223,238,0.81) 86%, rgba(188,224,238,0.81) 100%);
+    background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(187,223,238,0.81) 86%, rgba(188,224,238,0.81) 100%);
+    background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(187,223,238,0.81) 86%, rgba(188,224,238,0.81) 100%);
+    background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(187,223,238,0.81) 86%, rgba(188,224,238,0.81) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );
+}
+.success, .error{
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+.success{
+    background: green;
+
+}
+.error{
+    background: red;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+.delete{
+    color: rgb(241, 82, 82);
+    text-decoration: none; 
+}
+table{
+    background: #ccee;
+    border-radius: 5px;
+    transition: .5s;
+}
+table:hover{
+    -webkit-box-shadow: -1px 3px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 12px 0px rgba(0,0,0,0.75);
+    transform: translateY(-5px);
+
+}
+#cta-btn{
+    background: burlywood;
+    color: white;
+    font-size: 12px;
+}
